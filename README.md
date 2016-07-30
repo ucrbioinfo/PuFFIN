@@ -2,6 +2,7 @@
 A Parameter-free Method to Build Genome-wide Nucleosome Maps from Paired-end Sequencing Data
 
 Dowload: type "git clone https://github.com/ucrbioinfo/PuFFIN"
+
 Requires Python
 
 A sample input file is provided in example.bam
@@ -13,6 +14,7 @@ Usage
 Given that input reads are in input.bam, that contain only reads for particular chromosome
 
 ./bam2bedpe.sh input.bam > input.bed
+
 python Run.py input.bed
 
 The output will be printed in input.bed.nucs using next column format:
