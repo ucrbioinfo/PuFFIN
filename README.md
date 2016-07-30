@@ -3,7 +3,7 @@ A Parameter-free Method to Build Genome-wide Nucleosome Maps from Paired-end Seq
 
 Dowload: type "git clone https://github.com/ucrbioinfo/PuFFIN"
 
-Requires Python
+Requires Python 2.7, numpy, pylab, and pickle
 
 A sample input file is provided in example.bam
 
